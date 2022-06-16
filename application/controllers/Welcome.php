@@ -18,7 +18,7 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/userguide3/general/urls.html
 	 */
-	public function index()
+	public function index_en()
 	{
 		$this->load->view('index_head_en');
 		$this->load->view('index_body_en');

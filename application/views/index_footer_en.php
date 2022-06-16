@@ -1,5 +1,5 @@
-<!-- Start of Footer -->
-<footer class="footer appear-animate" data-animation-options="{
+        <!-- Start of Footer -->
+        <footer class="footer appear-animate" data-animation-options="{
             'name': 'fadeIn'
         }">
             <div class="container">
