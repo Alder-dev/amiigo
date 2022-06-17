@@ -52,12 +52,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 //EN -> Sitio en ingles
 $route['default_controller'] = 'welcome/index_en';
-$route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE;
-
 $route['vendor'] = 'vendor';	//Vendor
 
-
 //ES -> Sitio en español
+$route['es'] = 'welcome/index_es';
 
+
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
 

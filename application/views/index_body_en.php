@@ -1249,7 +1249,9 @@
                     <!-- End of Banner -->
                 </div>
                 <!-- End of Category Banner 2Cols -->
-
+                <hr>
+                <hr>
+                <hr>
                 <div class="title-link-wrapper mb-3">
                     <h2 class="title mb-0 pt-2 pb-2">Apparels &amp; Clothings</h2>
                     <a href="shop-boxed-banner.html" class="mb-0">More Products<i
@@ -1528,7 +1530,9 @@
                     </div>
                 </div>
                 <!-- End of Banner Product Wrapper -->
-
+                <br>
+                <br>
+                <br>
                 <div class="title-link-wrapper mb-3">
                     <h2 class="title mb-0 pt-2 pb-2">Food &amp; Kitchen</h2>
                     <a href="shop-boxed-banner.html" class="mb-0">More Products<i
@@ -1807,6 +1811,8 @@
                     </div>
                 </div>
                 <!-- End of Banner Product Wrapper -->
+                <br>
+                <br>
 
                 <div class="title-link-wrapper mb-3">
                     <h2 class="title mb-0 pt-2 pb-2">Top Rated Products</h2>
@@ -2518,7 +2524,7 @@
                                 <li><a href="about-us.html">About Us</a></li>
                                 <li><a href="become-a-vendor.html">Become A Vendor</a></li>
                                 <li><a href="contact-us.html">Contact Us</a></li>
-                                <li><a href="login.html">Login</a></li>
+                                <li><a href="login_en.php">Login</a></li>
                                 <li><a href="faq.html">FAQs</a></li>
                                 <li><a href="error-404.html">Error 404</a></li>
                                 <li><a href="coming-soon.html">Coming Soon</a></li>
