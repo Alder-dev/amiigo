@@ -8,7 +8,7 @@
                 <a href="#sign-up" class="nav-link">Sign Up</a>
             </li>
         </ul>
-        <form action="#" method="post">
+        <form action="<?php echo base_url().'Admin/autenticacion'; ?>" method="POST">
             <div class="tab-content">
                 <div class="tab-pane active" id="sign-in">
                     <div class="form-group">
@@ -17,17 +17,20 @@
                     </div>
                     <div class="form-group mb-0">
                         <label>Password *</label>
-                        <input type="text" class="form-control" name="password" id="password" required>
+                        <input type="password" class="form-control" name="password" id="password" required>
                     </div>
                     <div class="form-checkbox d-flex align-items-center justify-content-between">
-                        <input type="checkbox" class="custom-checkbox" id="remember" name="remember" required="">
+                        <input type="checkbox" class="custom-checkbox" id="remember" name="remember">
                         <label for="remember">Remember me</label>
                         <a href="#">Last your password?</a>
+                        <span>You do not have an account?</span>
+                        <a href="sign-up">Sign up</a>
                     </div>
-                    <button class="btn " type="submit"> SIGN IN</button>
+                    <button class="btn btn-primary" type="submit"> SIGN IN</button>
                 </div>
         </form>
-            <div class="tab-pane" id="sign-up">
+        <form action="" method="post">
+        <div class="tab-pane" id="sign-up">
                 <div class="form-group">
                     <label>Your Email address *</label>
                     <input type="text" class="form-control" name="email_1" id="email_1" required>
@@ -46,6 +49,7 @@
                 </div>
                 <a href="#" class="btn btn-primary">Sign Up</a>
             </div>
+        </form>
         </div>
         <p class="text-center">Sign in with social account</p>
         <div class="social-icons social-icon-border-color d-flex justify-content-center">

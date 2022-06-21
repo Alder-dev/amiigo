@@ -74,8 +74,6 @@
                         <a href="my-account.html" class="d-lg-show">My Account</a>
                         <a href="assets/ajax/login_en.php" class="d-lg-show login sign-in"><i
                                 class="w-icon-account"></i>Sign In</a>
-                        <span class="delimiter d-lg-show">/</span>
-                        <a href="assets/ajax/login_en.php" class="ml-0 d-lg-show login register">Register</a>
                     </div>
                 </div>
             </div>
