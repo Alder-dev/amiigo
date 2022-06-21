@@ -8,7 +8,7 @@
                 <a href="#sign-up" class="nav-link">Sign Up</a>
             </li>
         </ul>
-        <form action="" method="post">
+        <form action="#" method="post">
             <div class="tab-content">
                 <div class="tab-pane active" id="sign-in">
                     <div class="form-group">
@@ -24,7 +24,7 @@
                         <label for="remember">Remember me</label>
                         <a href="#">Last your password?</a>
                     </div>
-                    <a href="#" class="btn btn-primary">Sign In</a>
+                    <button class="btn " type="submit"> SIGN IN</button>
                 </div>
         </form>
             <div class="tab-pane" id="sign-up">
