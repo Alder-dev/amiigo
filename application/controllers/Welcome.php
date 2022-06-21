@@ -39,5 +39,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('footer_en');
 	}
 
+	public function sign_up_en()
+	{
+		$this->load->view('head_en');
+		$this->load->view('signUp_en');
+		$this->load->view('footer_en');
+	}
 
 }

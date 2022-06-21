@@ -401,7 +401,7 @@
                             <nav class="main-nav">
                                 <ul class="menu">
                                     <li class="active">
-                                        <a href="demo8.html">Home</a>
+                                        <a href="<?php echo base_url() ; ?>">Home</a>
                                     </li>
                                     <li>
                                         <a href="demo8-shop.html">Shop</a>
@@ -2396,7 +2396,7 @@
             <div class="tab-content">
                 <div class="tab-pane active" id="main-menu">
                     <ul class="mobile-menu">
-                        <li><a href="demo8.html">Home</a></li>
+                        <li><a href="<?php echo base_url() ;?>">Home</a></li>
                         <li>
                             <a href="demo8-shop.html">Shop</a>
                             <ul>

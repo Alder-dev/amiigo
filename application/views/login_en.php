@@ -5,7 +5,7 @@
                 <a href="login_en" class="nav-link active">Sign In</a>
             </li>
             <li class="nav-item">
-                <a href="signUp" class="nav-link">Sign Up</a>
+                <a href="<?php echo base_url().'signUp_en' ;?>" class="nav-link">Sign Up</a>
             </li>
         </ul>
   
