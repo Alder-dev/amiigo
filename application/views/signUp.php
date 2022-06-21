@@ -1,4 +1,4 @@
-<div class="w-50 d-flex justify-content-center">
+<div class="d-flex justify-content-center">
     <div class="tab tab-nav-boxed tab-nav-center tab-nav-underline">
         <ul class="nav nav-tabs text-uppercase" role="tablist">
             <li class="nav-item">
@@ -8,29 +8,6 @@
                 <a href="signUp" class="nav-link">Sign Up</a>
             </li>
         </ul>
-  
-            <div class="tab-content">
-                <div class="tab-pane active" id="sign-in">
-                    <div class="form-group">
-                        <label>Username or email address *</label>
-                        <input type="text" class="form-control" name="username" id="username" required>
-                    </div>
-                    <div class="form-group mb-0">
-                        <label>Password *</label>
-                        <input type="password" class="form-control" name="password" id="password" required>
-                    </div>
-                    <div class="form-checkbox d-flex align-items-center justify-content-between">
-                        <input type="checkbox" class="custom-checkbox" id="remember" name="remember">
-                        <label for="remember">Remember me</label>
-                        <a href="#">Last your password?</a>
-                    </div>
-                    <span>You do not have an account?</span>
-                        <a href="#sign-up">Sign up</a>
-                        <hr>
-                    <button class="btn btn-primary" type="submit"> SIGN IN</button>
-                </div>
-    
-       
         <div class="tab-pane" id="sign-up">
                 <div class="form-group">
                     <label>Your Email address *</label>

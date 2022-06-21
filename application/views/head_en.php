@@ -72,7 +72,7 @@
                         <a href="blog.html" class="d-lg-show">Blog</a>
                         <a href="contact-us.html" class="d-lg-show">Contact Us</a>
                         <a href="my-account.html" class="d-lg-show">My Account</a>
-                        <a href="assets/ajax/login_en.php" class="d-lg-show login sign-in"><i
+                        <a href="<?php echo base_url().'login_en' ;?>" class="d-lg-show"><i
                                 class="w-icon-account"></i>Sign In</a>
                     </div>
                 </div>

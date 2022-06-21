@@ -34,9 +34,9 @@ class Welcome extends CI_Controller {
 
 	public function login_en()
 	{
-		$this->load->view('login_head_en');
-		$this->load->view('login_body_en');
-		$this->load->view('login_footer_en');
+		$this->load->view('head_en');
+		$this->load->view('login_en');
+		$this->load->view('footer_en');
 	}
 
 
