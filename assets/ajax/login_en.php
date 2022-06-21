@@ -8,23 +8,25 @@
                 <a href="#sign-up" class="nav-link">Sign Up</a>
             </li>
         </ul>
-        <div class="tab-content">
-            <div class="tab-pane active" id="sign-in">
-                <div class="form-group">
-                    <label>Username or email address *</label>
-                    <input type="text" class="form-control" name="username" id="username" required>
+        <form action="" method="post">
+            <div class="tab-content">
+                <div class="tab-pane active" id="sign-in">
+                    <div class="form-group">
+                        <label>Username or email address *</label>
+                        <input type="text" class="form-control" name="username" id="username" required>
+                    </div>
+                    <div class="form-group mb-0">
+                        <label>Password *</label>
+                        <input type="text" class="form-control" name="password" id="password" required>
+                    </div>
+                    <div class="form-checkbox d-flex align-items-center justify-content-between">
+                        <input type="checkbox" class="custom-checkbox" id="remember" name="remember" required="">
+                        <label for="remember">Remember me</label>
+                        <a href="#">Last your password?</a>
+                    </div>
+                    <a href="#" class="btn btn-primary">Sign In</a>
                 </div>
-                <div class="form-group mb-0">
-                    <label>Password *</label>
-                    <input type="text" class="form-control" name="password" id="password" required>
-                </div>
-                <div class="form-checkbox d-flex align-items-center justify-content-between">
-                    <input type="checkbox" class="custom-checkbox" id="remember" name="remember" required="">
-                    <label for="remember">Remember me</label>
-                    <a href="#">Last your password?</a>
-                </div>
-                <a href="#" class="btn btn-primary">Sign In</a>
-            </div>
+        </form>
             <div class="tab-pane" id="sign-up">
                 <div class="form-group">
                     <label>Your Email address *</label>

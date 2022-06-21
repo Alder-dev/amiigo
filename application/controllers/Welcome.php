@@ -30,4 +30,5 @@ class Welcome extends CI_Controller {
 		$this->load->view('index_body_es');
 		$this->load->view('index_footer_es');
 	}
+
 }
