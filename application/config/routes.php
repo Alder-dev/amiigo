@@ -51,8 +51,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 //EN -> Sitio en ingles
-$route['default_controller'] = 'welcome/index_en';
-$route['login_en'] = 'welcome/login_en';
+$route['default_controller'] = 'welcome/index_en'; //index
+$route['login_en'] = 'welcome/login_en';    //login en
+$route['sign_up'] = 'welcome/sign_up_en';  // sign up en
 $route['vendor'] = 'vendor';	//Vendor
 
 //ES -> Sitio en español

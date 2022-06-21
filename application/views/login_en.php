@@ -1,6 +1,6 @@
-<div class="w-50 d-flex justify-content-center">
-    <div class="tab tab-nav-boxed tab-nav-center tab-nav-underline">
-        <ul class="nav nav-tabs text-uppercase" role="tablist">
+<div class="d-flex justify-content-center">
+    <div class="col-md-3">
+        <ul class="d-flex justify-content-center nav nav-tabs text-uppercase" role="tablist">
             <li class="nav-item">
                 <a href="login_en" class="nav-link active">Sign In</a>
             </li>
@@ -27,7 +27,7 @@
                     <span>You do not have an account?</span>
                         <a href="#sign-up">Sign up</a>
                         <hr>
-                    <button class="btn btn-primary" type="submit"> SIGN IN</button>
+                    <button class="btn btn-primary btn-block" type="submit"> SIGN IN</button>
                 </div>
     
        
