@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-center">
-    <div class="tab tab-nav-boxed tab-nav-center tab-nav-underline">
+    <div class="col-md-3">
         <ul class="nav nav-tabs text-uppercase" role="tablist">
             <li class="nav-item">
                 <a href="login_en" class="nav-link active">Sign In</a>
@@ -28,14 +28,16 @@
                 <a href="#" class="btn btn-primary">Sign Up</a>
             </div>
        
-        </div>
-        <p class="text-center">Sign in with social account</p>
-        <div class="social-icons social-icon-border-color d-flex justify-content-center">
-            <a href="#" class="social-icon social-facebook w-icon-facebook"></a>
-            <a href="#" class="social-icon social-twitter w-icon-twitter"></a>
-            <a href="#" class="social-icon social-google fab fa-google"></a>
-        </div>
+        </div> 
+        
     </div>
+    <p class="text-center">Sign in with social account</p>
+            <div class="social-icons social-icon-border-color d-flex justify-content-center">
+                <a href="#" class="social-icon social-facebook w-icon-facebook"></a>
+                <a href="#" class="social-icon social-twitter w-icon-twitter"></a>
+                <a href="#" class="social-icon social-google fab fa-google"></a>
+    </div>
+
 </div>
 <!-- Main JS -->
 <script src="assets/js/main.min.js"></script>

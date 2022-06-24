@@ -73,10 +73,8 @@
                         <a href="blog.html" class="d-lg-show">Blog</a>
                         <a href="contact-us.html" class="d-lg-show">Contactanos</a>
                         <a href="my-account.html" class="d-lg-show">Mi cuenta</a>
-                        <a href="assets/ajax/login_es.php" class="d-lg-show login sign-in"><i
+                        <a href="<?php echo base_url(). 'login_es';?>" class="d-lg-show"><i
                                 class="w-icon-account"></i>Iniciar sesión</a>
-                        <span class="delimiter d-lg-show">/</span>
-                        <a href="assets/ajax/login_es.php" class="ml-0 d-lg-show login register">Registrate</a>
                     </div>
                 </div>
             </div>

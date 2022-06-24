@@ -58,6 +58,8 @@ $route['vendor'] = 'vendor';	//Vendor
 
 //ES -> Sitio en español
 $route['es'] = 'welcome/index_es';
+$route['login_es'] = 'welcome/login_es';
+
 
 
 $route['404_override'] = '';
